@@ -100,35 +100,53 @@ namespace FuZhu_Data
             // 示例数据：河南、河北，省-市-县三级，带行政代码
             var rootAreas = new List<AreaNode>
             {
-                new AreaNode
-                {
-                    Name = "河南省",
-                    Code = "41",
-                    Children = new List<AreaNode>
-                    {
-                        new AreaNode
-                        {
-                            Name = "郑州市",
-                            Code = "4101",
-                            Children = new List<AreaNode>
-                            {
-                                new AreaNode { Name = "中原区", Code = "410102" },
-                                new AreaNode { Name = "金水区", Code = "410105" },
-                                new AreaNode { Name = "二七区", Code = "410103" }
-                            }
-                        },
-                        new AreaNode
-                        {
-                            Name = "洛阳市",
-                            Code = "4103",
-                            Children = new List<AreaNode>
-                            {
-                                new AreaNode { Name = "涧西区", Code = "410305" },
-                                new AreaNode { Name = "老城区", Code = "410302" }
-                            }
-                        }
-                    }
-                },
+new AreaNode
+{
+    Name = "河南省",
+    Code = "41",
+    Children = new List<AreaNode>
+    {
+        new AreaNode
+        {
+            Name = "郑州市",
+            Code = "4101",
+            Children = new List<AreaNode>
+            {
+                new AreaNode { Name = "中原区", Code = "410102" },
+                new AreaNode { Name = "金水区", Code = "410105" },
+                new AreaNode { Name = "二七区", Code = "410103" }
+            }
+        },
+        new AreaNode
+        {
+            Name = "洛阳市",
+            Code = "4103",
+            Children = new List<AreaNode>
+            {
+                new AreaNode { Name = "涧西区", Code = "410305" },
+                new AreaNode { Name = "老城区", Code = "410302" }
+            }
+        },
+        new AreaNode
+        {
+            Name = "焦作市",
+            Code = "4108",
+            Children = new List<AreaNode>
+            {
+                new AreaNode { Name = "解放区", Code = "410802" },
+                new AreaNode { Name = "中站区", Code = "410803" },
+                new AreaNode { Name = "马村区", Code = "410804" },
+                new AreaNode { Name = "山阳区", Code = "410811" },
+                new AreaNode { Name = "修武县", Code = "410821" },
+                new AreaNode { Name = "博爱县", Code = "410822" },
+                new AreaNode { Name = "武陟县", Code = "410823" },
+                new AreaNode { Name = "温县", Code = "410825" },
+                new AreaNode { Name = "沁阳市", Code = "410882" },
+                new AreaNode { Name = "孟州市", Code = "410883" }
+            }
+        }
+    }
+},
                 new AreaNode
                 {
                     Name = "河北省",
