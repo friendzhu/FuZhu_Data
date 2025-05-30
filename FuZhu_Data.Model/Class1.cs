@@ -1,5 +1,11 @@
 ﻿namespace FuZhu_Data.Model
 {
+    /*
+     * 
+     * 功能：2025-05-30
+     * 作者;RIGOG 
+     * 
+     * */
     public class Class1
     {
         public string Name { get; set; } = "FuZhu_Data.Model";
